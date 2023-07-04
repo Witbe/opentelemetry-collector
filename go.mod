@@ -2,6 +2,8 @@ module go.opentelemetry.io/collector
 
 go 1.14
 
+replace github.com/grpc-gateway/grpc-gateway => github.com/Witbe/grpc-gateway v1.16.2
+
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.2.0
 	github.com/OneOfOne/xxhash v1.2.5 // indirect
@@ -48,8 +50,8 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/tinylib/msgp v1.1.5
 	github.com/uber/jaeger-lib v2.4.0+incompatible
-	go.opencensus.io v0.22.6
 	github.com/xdg-go/scram v0.0.0-20180814205039-7eeb5667e42c
+	go.opencensus.io v0.22.6
 	go.uber.org/atomic v1.7.0
 	go.uber.org/zap v1.16.0
 	golang.org/x/sys v0.0.0-20201214210602-f9fddec55a1e
