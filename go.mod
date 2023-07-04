@@ -2,7 +2,7 @@ module go.opentelemetry.io/collector
 
 go 1.14
 
-replace github.com/grpc-gateway/grpc-gateway => github.com/Witbe/grpc-gateway v1.16.2
+replace github.com/grpc-ecosystem/grpc-gateway => github.com/Witbe/grpc-gateway v1.16.2
 
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.2.0
